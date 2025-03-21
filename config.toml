@@ -1,0 +1,10 @@
+[service]
+url = "http://localhost:4010/send_sms"
+
+[auth]
+username = "user"
+password = "password"
+
+[logging]
+level = "INFO"
+file = "sms_client.log"
